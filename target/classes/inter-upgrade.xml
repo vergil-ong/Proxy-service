@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interfaces>
+	<interface>
+		<original class-name="com.ong.service.TestService" method-name="test1" >
+		</original>
+		<current class-name="com.ong.service.TestService" method-name="test2" >
+		</current>
+	</interface>
+	<interface>
+		<original class-name="com.ong.service.TestService" method-name="test1" >
+			<argument type="java.lang.String" ></argument>
+		</original>
+		<current class-name="com.ong.service.TestService" method-name="test3" >
+			<argument type="java.lang.String" default-value="" ref="" ></argument>
+			<argument type="java.lang.String" default-value="qqq" ref="" ></argument>
+		</current>
+	</interface>
+</interfaces>
+
+
+<!-- sea.js
+
+'login.js' interface
+jq.extends  abstract login.js 
+
+ua 'PC'      PC login
+	'IOS'		IOS login
+	custom   cutom login    new login -->
+	
+	
